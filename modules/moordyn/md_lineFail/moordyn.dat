@@ -11,7 +11,7 @@ main           0.333   685   1      0.27   1         0.20
 ---------------------- RODS ----------------------------------------
 ID   RodType  Attachment  Xa    Ya    Za    Xb      Yb     Zb    NumSegs  RodOutputs
 (#)  (name)    (#/key)    (m)   (m)   (m)   (m)     (m)    (m)   (-)       (-)
-1     main      Free       1     0     -20   1       0      -10   3         p
+1     main      Free       1     0     -20   1       0      -10   3         -
 ---------------------- POINTS --------------------------------                                       
 Node Type      X     Y      Z     M    V   CdA   CA
 (-)  (-)      (m)   (m)    (m)   (kg) (m^3)  (m^2) (-)
@@ -22,10 +22,10 @@ Node Type      X     Y      Z     M    V   CdA   CA
 ---------------------- LINES --------------------------------------       
 Line  LineType NodeA    NodeB   UnstrLen  NumSegs    Flags/Outputs                   
 (-)   (-)      (-)       (-)      (m)       (-)        (-)                 
-1     main      1         2       325.00    20          p  
-2     main      2         R1A     150.00    10          p           
-3     main      3         R1A     475.00    30          p   
-4     main      R1B        4        10       1          p  
+1     main      1         2       325.00    20          -  
+2     main      2         R1A     150.00    10          -           
+3     main      3         R1A     475.00    30          -   
+4     main      R1B        4        10       1          -  
 ---------------------- FAILURE ----------------------
 FailureID    Node    Line(s)   FailTime   FailTen
 ()           ()       (,)      (s or 0)   (N or 0)
